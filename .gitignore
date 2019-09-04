@@ -2,6 +2,8 @@
 # Created by https://www.gitignore.io/api/vue,linux,macos,windows
 # Edit at https://www.gitignore.io/?templates=vue,linux,macos,windows
 
+.vuepress/dist
+
 ### Linux ###
 *~
 
