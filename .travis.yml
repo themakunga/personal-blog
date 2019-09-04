@@ -1,0 +1,7 @@
+languaje: node_js
+script:
+  - echo "deploying"
+install:
+  - yarn global add firebase-tools vuepress
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN
