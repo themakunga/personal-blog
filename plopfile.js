@@ -13,16 +13,25 @@ module.exports = (plop) => {
         name: 'category',
         message: 'design a category',
       },
-    ],
-    actions: [
       {
-        type: 'add',
-        path: 'src/_posts/'+todayDate+'-{{ snakeCase name }}.md',
-        templateFile: 'templates/blogpost.md',
-        data: {
-          date: todayDate,
-        },
+        type: 'input',
+        name: 'tags',
+        message: 'list array comma separate',
       },
     ],
+    actions: (d) =>
+      {
+        const actions = [];
+        actions.push({
+          type: 'add',
+          path: 'src/_posts/'+todayDate+'-{{ snakeCase name }}.md',
+          templateFile: 'templates/blogpost.md',
+          data: {
+            date: new Date().toISOString(),
+            tagsArray: d.tags.split(", "),
+          },
+        });
+        return actions;
+      },
   });
 };

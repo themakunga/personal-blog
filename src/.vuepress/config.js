@@ -48,7 +48,7 @@ module.exports = {
         url: '/img/deader.png',
         useGeo: false,
       },
-      showTitle: true,
+      showTitle: false,
     },
     lastUpdated: true,
     nav: [
@@ -56,7 +56,7 @@ module.exports = {
       { text: 'Posts', link: '/posts/', exact: false },
     ],
     pagination: {
-      perPage: 5,
+      perPage: 10,
     },
 
     // Default Pages (Optional, the default value of all pages is `true`)
