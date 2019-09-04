@@ -4,5 +4,6 @@ script:
 install:
   - yarn global add firebase-tools vuepress
 after_success:
-  - vuepress build
+  - yarn install
+  - yarn build
   - firebase deploy --token $FIREBASE_TOKEN
