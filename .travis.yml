@@ -8,4 +8,8 @@ after_success:
   - yarn build
   - firebase deploy --token $FIREBASE_TOKEN
   - yarn twit
-  - echo env(TRAVIS_COMMIT_MESSAGE)
+  - echo $TRAVIS_COMMIT_MESSAGE
+cache:
+  directories:
+    - node_modules
+    - dist
