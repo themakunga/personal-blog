@@ -6,8 +6,10 @@ const {
   CONSUMER_SECRET: consumer_secret,
   ACCESS_TOKEN: access_token,
   ACCESS_SECRET: access_token_secret,
+  TRAVIS_COMMIT_MESSAGE: msg,
 } = process.env;
 
+const commit = (msg !== null) ? msg : null;
 const config = {
   consumer_key,
   consumer_secret,
@@ -18,7 +20,7 @@ const date = new Date().toUTCString(-4);
 const tw = new twit(config);
 
 const message = {
-  status: 'Hay una nueva actualizacion en mi blog, puedes verlo en https://nicolasblog.web.app #nicolasblog #blogging #blog'+date,
+  status: 'Actualizacion en el blog: '+msg+', puedes verlo en https://nicolasblog.web.app #nicolasblog #blogging #blog'+date,
 };
 
 tw.post('statuses/update', message, (err, data, res) => {
