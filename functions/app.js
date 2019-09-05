@@ -14,11 +14,11 @@ const config = {
   access_token,
   access_token_secret
 };
-
+const date = new Date().toUTCString(-4);
 const tw = new twit(config);
 
 const message = {
-  status: 'Hay una nueva actualizacion en mi blog, puedes verlo en https://nicolasblog.web.app ',
+  status: 'Hay una nueva actualizacion en mi blog, puedes verlo en https://nicolasblog.web.app #nicolasblog #blogging #blog'+date,
 };
 
 tw.post('statuses/update', message, (err, data, res) => {

@@ -17,7 +17,7 @@ header-image:
 ---
 # Como Hice Este Blog
 
-Creo que como primer post **Tecnico** dejare unas instrucciones de como fue que realice este blog
+Creo que como primer post **Tecnico** dejare unas instrucciones de como fue que realice este blog. Nota un poco repelente? este post es largo, y para variar tiene mucho lenguaje tecnico pero si logran sortearlo podran tener su blog libre de las plataformas actuales.
 
 # Por Que elegi esta tecnologia?
 
@@ -241,5 +241,7 @@ module.exports = {
 </details>
 
 pueden encontrar una guia mucho mas completa y dedicada en el siguiente [link](https://vuepress-theme-meteorlxy.meteorlxy.cn/posts/2019/02/27/theme-guide-en.html)
+
+_work in progress, voy a continuar con este mismo post y lo actualizare cuando tenga un poco mas de tiempo_
 
 <disqus />

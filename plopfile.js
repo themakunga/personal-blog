@@ -28,7 +28,7 @@ module.exports = (plop) => {
           templateFile: 'templates/blogpost.md',
           data: {
             date: new Date().toUTCString(),
-            tagsArray: d.tags.split(", "),
+            tagsArray: d.tags.split(",").map(item => item.trim()),
           },
         });
         return actions;
