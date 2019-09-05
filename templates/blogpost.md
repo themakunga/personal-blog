@@ -6,6 +6,7 @@ tags:
 {{#each tagsArray}}
   - {{ this }}
 {{/each}}
+header-image: 
 ---
 # {{ titleCase name}}
 
