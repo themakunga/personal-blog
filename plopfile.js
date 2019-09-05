@@ -27,7 +27,7 @@ module.exports = (plop) => {
           path: 'src/_posts/'+todayDate+'-{{ snakeCase name }}.md',
           templateFile: 'templates/blogpost.md',
           data: {
-            date: new Date().toISOString(),
+            date: new Date().toUTCString(),
             tagsArray: d.tags.split(", "),
           },
         });

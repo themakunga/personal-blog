@@ -13,8 +13,6 @@ header-image: https://www.rhino.com/sites/rhino.com/files/styles/article_image/p
 
 Si, aca estamos nuevamente, otro blog otro que puede que abandone eventualmente, pero eso.....
 
-<!-- more -->
-
 ahora eso si es un poco mas de pega y el contenido es mas estatico y aparentemente es mas tecnico, creo que mi necesidad de controlar las cosas que hago esta haciendo efecto, por lo mismo ahora uso esta tecnologia.
 
 Si, olviden nuevamente que sea constante pero eso, aca es solo para dejar ideas, creo que en algun post pondre todas las tecnologias y como hice todo para los post mas automatizados.

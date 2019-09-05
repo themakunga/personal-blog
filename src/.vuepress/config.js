@@ -12,7 +12,7 @@ module.exports = {
   evergreen: true,
   markdown: {
     anchor: { permalink: true },
-    toc: { includeLevel: [1, 2] }
+    toc: { includeLevel: [0, 1, 2, 3, 4] }
   },
 
   themeConfig: {

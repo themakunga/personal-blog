@@ -2,9 +2,12 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src --dest dist",
-    "plop": "plop"
+    "plop": "plop",
+    "twit": "node functions/app.js"
   },
   "dependencies": {
+    "dotenv": "^8.1.0",
+    "twit": "^2.2.11",
     "vuepress": "^1.0.3",
     "vuepress-theme-meteorlxy": "^1.3.0",
     "vuepress-theme-yubisaki": "^3.1.0"

@@ -7,3 +7,4 @@ after_success:
   - yarn install
   - yarn build
   - firebase deploy --token $FIREBASE_TOKEN
+  - yarn twit
