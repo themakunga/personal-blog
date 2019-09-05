@@ -20,7 +20,7 @@ const date = new Date().toUTCString(-4);
 const tw = new twit(config);
 
 const message = {
-  status: 'Actualizacion en el blog: '+msg+', puedes verlo en https://nicolasblog.web.app #nicolasblog #blogging #blog'+date,
+  status: 'Update on the blog: '+msg+', puedes verlo en https://nicolasblog.web.app',
 };
 
 tw.post('statuses/update', message, (err, data, res) => {
