@@ -6,6 +6,7 @@
     "twit": "node functions/app.js"
   },
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
     "dotenv": "^8.1.0",
     "twit": "^2.2.11",
     "vuepress": "^1.0.3",
