@@ -16,7 +16,7 @@ module.exports = {
   },
 
   themeConfig: {
-    comments: false,
+    comments: true,
     lang: 'en-US',
     personalInfo: {
       nickname: 'Nicolas',
