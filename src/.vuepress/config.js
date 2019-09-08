@@ -78,7 +78,7 @@ module.exports = {
     [
       'social-share',
       {
-        networks: ['twitter', 'facebook', 'reddit', 'telegram', 'whatsapp', 'line '],
+        networks: ['twitter', 'facebook', 'reddit', 'telegram', 'whatsapp', 'line'],
         twitterUser: '_makunga',
         autoQuote: true,
         isPlain: false
