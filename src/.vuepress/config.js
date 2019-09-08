@@ -16,7 +16,7 @@ module.exports = {
   },
 
   themeConfig: {
-    comments: true,
+    comments: false,
     lang: 'en-US',
     personalInfo: {
       nickname: 'Nicolas',
@@ -74,5 +74,21 @@ module.exports = {
         'ga': 'UA-147195786-1' // UA-00000000-0
       }
     ],
+    'vuepress-plugin-reading-time',
+    [
+      'social-share',
+      {
+        networks: ['twitter', 'facebook', 'reddit', 'telegram', 'whatsapp', 'line '],
+        twitterUser: '_makunga',
+        autoQuote: true,
+        isPlain: false
+      }
+    ],
+    [
+      'feed',
+      {
+        canonical_base: 'https://nicolasblog.web.app'
+      }
+    ]
   ],
 };

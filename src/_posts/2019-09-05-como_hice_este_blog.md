@@ -1,4 +1,6 @@
 ---
+layout: PostLayout
+type: post
 title: Como Hice Este Blog
 category: Tutorials
 date: Thu, 05 Sep 2019 14:40:28 GMT
@@ -437,5 +439,3 @@ con eso plop va a rellenar la informacion consultada en los tags entre llaves.
 
 
 _work in progress, voy a continuar con este mismo post y lo actualizare cuando tenga un poco mas de tiempo_
-
-<disqus />

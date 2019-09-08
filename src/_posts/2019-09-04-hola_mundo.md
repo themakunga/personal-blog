@@ -1,5 +1,6 @@
 ---
-vssue: false
+layout: PostLayout
+type: post
 title: Hola Mundo
 category: Blog
 date: 2019-09-04T19:06:01.386Z
@@ -18,7 +19,3 @@ ahora eso si es un poco mas de pega y el contenido es mas estatico y aparentemen
 Si, olviden nuevamente que sea constante pero eso, aca es solo para dejar ideas, creo que en algun post pondre todas las tecnologias y como hice todo para los post mas automatizados.
 
 Ah! tambien habilite comentarios en esta ocacion como son por disqus no me van a espamear donde tengo hosteado esto.
-
-
-
-<disqus />

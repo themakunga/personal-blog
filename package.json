@@ -4,7 +4,7 @@
     "build": "vuepress build src --dest dist",
     "plop": "plop",
     "twit": "node functions/app.js",
-    "deploy": "source .env && firebase deploy --token $FIREBASE_TOKEN"
+    "deploy": "yarn build && source .env && firebase deploy --token $FIREBASE_TOKEN"
   },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
@@ -24,6 +24,10 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "plop": "^2.4.0"
+    "plop": "^2.4.0",
+    "vuepress-plugin-feed": "^0.1.7",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-reading-time": "^0.1.1",
+    "vuepress-plugin-social-share": "^0.0.4"
   }
 }

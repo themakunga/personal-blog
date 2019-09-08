@@ -1,5 +1,6 @@
 ---
 layout: PostLayout
+type: post
 title: Sobre Feminismo Machismo Y La Comodidad De Comentar Desde Tu Computador
 category: Blog
 date: Sat, 07 Sep 2019 03:12:25 GMT
@@ -11,6 +12,7 @@ tags:
   - texto largo
 header-image: https://borderperiodismo.com/wp-content/uploads/2018/04/778e30849cbe73572833a07f2ae09809-1280x640.jpg
 ---
+
 # Sobre Feminismo Machismo Y La Comodidad De Comentar Desde Tu Computador
 
 Por lo visto comenzare un post con algo un poco problematico para mucha gente, pero pienso que es necesario que alguien (estoy completamente seguro que mucha mas gente lo hace) escriba de lo de opina de esto de la misma forma que critica, ya veran a lo que voy.

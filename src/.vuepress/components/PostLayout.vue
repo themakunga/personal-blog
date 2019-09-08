@@ -3,22 +3,18 @@
     <PostMeta v-if="meta" />
 
     <article class="main-div">
+      <small>{{ $page.readingTime.text }}</small>
       <Content
         :key="$page.path"
         class="post-content content"
       />
 
-      <disqus />
     </article>
     <PostMeta v-if="meta" />
+    <article class="main-div">
+      <disqus />
 
-    <div
-      v-if="vssue"
-      id="post-comments"
-      class="main-div"
-    >
-    <disqus />
-    </div>
+    </article>
   </div>
 </template>
 
