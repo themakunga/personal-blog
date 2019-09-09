@@ -89,6 +89,6 @@ module.exports = {
       {
         canonical_base: 'https://nicolasblog.web.app'
       }
-    ]
+    ],
   ],
 };
