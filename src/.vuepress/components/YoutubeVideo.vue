@@ -1,5 +1,5 @@
 <template>
-  <youtube :video-id="videoId"></youtube>
+  <youtube :video-id="videoId" player-width="100%"></youtube>
 
 </template>
 
