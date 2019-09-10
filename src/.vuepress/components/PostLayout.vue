@@ -13,6 +13,11 @@
     <PostMeta v-if="meta" />
     <article class="main-div">
       <disqus />
+    </article>
+    <article class="main-div">
+      <small>
+          <span v-for="t in $frontmatter.tags"  :key="">#{{t}} </span>
+      </small>
 
     </article>
   </div>
