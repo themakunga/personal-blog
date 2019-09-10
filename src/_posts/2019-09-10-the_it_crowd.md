@@ -18,7 +18,7 @@ header-image: https://2.bp.blogspot.com/-cC-UC4snbA8/WsvJcj1O2tI/AAAAAAAABoI/vxU
 este es otro post importado de mi antiguo blog
 :::
 
-Dejaremos dos cosas en claro antes de hacer el analisis correspondiente a la serie,  ~primero si, el nombre de este blog es referencia directa a esta serie; segundo, no, no somos un equipo de personas que escribe aca, asi que el "crowd" es super contradictorio, pero me gusta como se lee y suena asi que se mantendra.~~
+Dejaremos dos cosas en claro antes de hacer el analisis correspondiente a la serie,  ~~primero si, el nombre de este blog es referencia directa a esta serie; segundo, no, no somos un equipo de personas que escribe aca, asi que el "crowd" es super contradictorio, pero me gusta como se lee y suena asi que se mantendra.~~
 
 ¿Como es una serie de humor nerd? si me dices The Big Bang Theory te pido por favor que dejes de leer, vayas a una biblioteca y pidas el libro mas grande que tengan y leelo dos veces antes de volver aca, porque ese no es humor ni cientifico ni nerd, es increiblemente inferior cientificamente a Futurama y en lo nerd no se parece en nada a esta serie.  (Silicon Valley funciona de forma extraña entre nerd e imbecil pero es divertida y frustrante si eres del mundillo informatico)
 
