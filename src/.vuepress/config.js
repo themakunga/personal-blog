@@ -27,7 +27,7 @@ module.exports = {
       sns: {
         github: {
           account: 'TheYakuza',
-          link: 'https://github.com/TheYakuza/',
+          link: 'https://github.com/themakunga/',
         },
         twitter: {
           account: '_makunga',
